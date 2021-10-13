@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Medium clone</title>
+    <style>
+      * {
+        font-family: "PT Serif", serif;
+      }
+
+      .bg-yellow {
+        background-color: #c4e2ff;
+      }
+      .border-bottom-custom {
+        border-bottom: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-yellow border-bottom-custom py-2">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>Medium</strong></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Membership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Write</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Sign in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-dark text-light ml-3"
+                    >Get Started</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="bg-yellow border-bottom-custom py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 font">
+            <h1 class="display-4">
+              Medium is a place <br />
+              to write, read, and <br />connect
+            </h1>
+            <p>
+              It's easy and free to post your thinking on any topic and connect
+              with millions of readers.
+            </p>
+            <button class="btn btn-outline-dark rounded-pill">
+              Start Writing
+            </button>
+          </div>
+          <div class="col-6">
+            <img
+              src="https://picsum.photos/300/300/"
+              alt=""
+              class="rounded-circle float-right"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-bottom-custom">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 mb-2">
+            <h6>
+              <i class="fas fa-rocket"></i
+              ><small class="ml-2">TRENDING ON MEDIUM</small>
+            </h6>
+          </div>
+          <article class="col-sm-4 mb-2">
+            <div class="row">
+              <div class="col-1">
+                <h6 class="text-black-50">01</h6>
+              </div>
+              <div class="col-11">
+                <img
+                  src="https://picsum.photos/id/11/25/25"
+                  alt=""
+                  class="rounded-circle"
+                />
+                <span class="small ml-1">Akilah Hughes</span>
+                <h6 class="mt-2">
+                  <strong>Stevie Wonder Wasn’t the Weirdest Part</strong>
+                </h6>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 10</li>
+                  <li class="list-inline-item">.</li>
+                  <li class="list-inline-item">9 min read</li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-4 mb-2">
+            <div class="row">
+              <div class="col-1">
+                <h6 class="text-black-50">02</h6>
+              </div>
+              <div class="col-11">
+                <img
+                  src="https://picsum.photos/id/11/25/25"
+                  alt=""
+                  class="rounded-circle"
+                />
+                <span class="small ml-1">Ashley Richmond</span>
+                <h6 class="mt-2">
+                  <strong
+                    >A Recent Study Has Revealed the Long-Term Impact of
+                    Drinking Coffee Every Day</strong
+                  >
+                </h6>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 3</li>
+                  <li class="list-inline-item">.</li>
+                  <li class="list-inline-item">2 min read</li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-4 mb-2">
+            <div class="row">
+              <div class="col-1">
+                <h6 class="text-black-50">03</h6>
+              </div>
+              <div class="col-11">
+                <img
+                  src="https://picsum.photos/id/11/25/25"
+                  alt=""
+                  class="rounded-circle"
+                />
+                <span class="small ml-1"> umair haques</span>
+                <h6 class="mt-2">
+                  <strong
+                    >Why Everything is Suddenly Getting More Expensive — And Why
+                    It Won’t Stop</strong
+                  >
+                </h6>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 7</li>
+                  <li class="list-inline-item">.</li>
+                  <li class="list-inline-item">9 min read</li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-4 mb-2">
+            <div class="row">
+              <div class="col-1">
+                <h6 class="text-black-50">04</h6>
+              </div>
+              <div class="col-11">
+                <img
+                  src="https://picsum.photos/id/11/25/25"
+                  alt=""
+                  class="rounded-circle"
+                />
+                <span class="small ml-1"> M.G. Siegler</span>
+                <h6 class="mt-2"><strong>Facebook is Too Big, Fail</strong></h6>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 10</li>
+                  <li class="list-inline-item">.</li>
+                  <li class="list-inline-item">4 min read</li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-4 mb-2">
+            <div class="row">
+              <div class="col-1">
+                <h6 class="text-black-50">05</h6>
+              </div>
+              <div class="col-11">
+                <img
+                  src="https://picsum.photos/id/11/25/25"
+                  alt=""
+                  class="rounded-circle"
+                />
+                <span class="small ml-1">Sara A. Metwalli </span>
+                <h6 class="mt-2">
+                  <strong>6 New Awesome Features in Python 3.10</strong>
+                </h6>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 10</li>
+                  <li class="list-inline-item">.</li>
+                  <li class="list-inline-item">5 min read</li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-4 mb-2">
+            <div class="row">
+              <div class="col-1">
+                <h6 class="text-black-50">06</h6>
+              </div>
+              <div class="col-11">
+                <img
+                  src="https://picsum.photos/id/11/25/25"
+                  alt=""
+                  class="rounded-circle"
+                />
+                <span class="small ml-1">Konstantin Gizdov</span>
+                <h6 class="mt-2">
+                  <strong>The efficiency of Microsoft.</strong>
+                </h6>
+                <ul class="list-inline small">
+                  <li class="list-inline-item">Oct 12</li>
+                  <li class="list-inline-item">.</li>
+                  <li class="list-inline-item">12 min read</li>
+                  <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row">
+        <section class="col-sm-8 ">
+          <article class="row mb-3">
+            <div class="col-sm-8">
+              <img
+                src="https://picsum.photos/id/12/25/25"
+                alt=""
+                class="rounded-circle"
+              />
+              <span class="small ml-1">
+                Leauuriz</span>
+              <h6 class="mt-2">
+                <strong>You’re in the Right Relationship If You See These 14 Signs</strong>
+              </h6>
+              <p>How to know if you’ve got the one.</p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 2</li>
+                <li class="list-inline-item">.</li>
+                <li class="list-inline-item">6 min read</li>
+                <li class="list-inline-item"><button class="btn btn-light rounded-pill btn-sm">Love</button></li>
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="https://picsum.photos/400/250" alt="" class="w-100" />
+            </div>
+          </article>
+          <article class="row mb-3">
+            <div class="col-sm-8">
+              <img
+                src="https://picsum.photos/id/11/25/25"
+                alt=""
+                class="rounded-circle"
+              />
+              <span class="small ml-1">
+                Orkhan Huseynli</span>
+              <h6 class="mt-2">
+                <strong>Software Architecture Patterns: 5 min read</strong>
+              </h6>
+              <p>Main software architecture patterns in a nutshell.</p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Sep 4</li>
+                <li class="list-inline-item">.</li>
+                <li class="list-inline-item">4 min read</li>
+                <li class="list-inline-item"><button class="btn btn-light rounded-pill btn-sm">Software Architecture</button></li>
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="https://picsum.photos/400/250" alt="" class="w-100" />
+            </div>
+          </article>
+          <article class="row mb-3">
+            <div class="col-sm-8">
+              <img
+                src="https://picsum.photos/id/13/25/25"
+                alt=""
+                class="rounded-circle"
+              />
+              <span class="small ml-1">
+                
+                Richard Knight</span>
+              <h6 class="mt-2">
+                <strong>+$2,000/mo Playing Crypto Games — The Play-To-Earn Revolution is Here</strong>
+              </h6>
+              <p>NFT & Blockchain gaming are replacing traditional jobs</p>
+              <ul class="list-inline small">
+                <li class="list-inline-item">Aug 24</li>
+                <li class="list-inline-item">.</li>
+                <li class="list-inline-item">4 min read</li>
+                <li class="list-inline-item"><button class="btn btn-light rounded-pill btn-sm">Blockchain</button></li>
+                <li class="list-inline-item"><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="https://picsum.photos/400/250" alt="" class="w-100" />
+            </div>
+          </article>
+        </section>
+        <aside class="col-sm-4 mt-5">
+          <h6 class="p-0 mb-3">
+            <small><strong>DISCOVER MORE OF WHAT MATTERS TO YOU</strong></small>
+          </h6>
+          <ul class="list-inline small">
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm">Self</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Relationships</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Data Science</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Programming</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Productivity</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >JavaScript</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Machine Learning</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Politics</a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn btn-outline-secondary mb-2 btn-sm"
+                >Health</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
